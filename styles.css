@@ -1,0 +1,174 @@
+.quote {
+  background-color: #f5f5f5; /* Or use the exact color from Figma */
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+  border-radius: 8px;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.quote .author {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #777;
+}
+.videos {
+  padding: 60px 20px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.videos h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.video-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.video-item {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.video-item img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.video-item img:hover {
+  transform: scale(1.05);
+}
+
+.video-item h3 {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #333;
+}
+.membership {
+  background-color: #f8f8f8;
+  padding: 80px 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.membership h2 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.membership p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.membership .btn-primary {
+  padding: 14px 30px;
+  font-size: 1rem;
+  background-color: #ff6600; /* Use color from Figma */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.membership .btn-primary:hover {
+  background-color: #e65c00;
+}
+.faq {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.faq h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.faq-item {
+  margin-bottom: 40px;
+}
+
+.faq-item h3 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.faq-item p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+.site-footer {
+  background-color: #0e0e0e; /* Use the Figma background color */
+  color: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 20px;
+}
+
